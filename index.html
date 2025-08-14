@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenLink - Plataforma de Reciclaje Colaborativo</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Style Css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark container-xe">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                GreenLink
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Características</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- section principal -->
+    <header class="py-5 section-princ">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Conectando comunidades con el reciclaje</h1>
+                    <p class="lead mb-4">GreenLink es una plataforma web innovadora diseñada para facilitar el reciclaje
+                        al localizar y mostrar puntos de reciclaje cercanos al usuario.</p>
+                    <a href="https://jheimytolentino.github.io/GreenLink/"
+                        class="btn btn-info btn-lg me-2 text-white">Ver
+                        plataforma</a>
+                    <a href="#features" class="btn btn-outline-info btn-lg">Más información</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/proyecto.png" alt="GreenLink App" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section info -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-4">El problema en San Ramón</h2>
+                    <p>Según encuestas municipales y reportes de organizaciones ambientales locales, en San Ramón se
+                        estima que entre el 60% y 70% de los residentes no conoce la ubicación exacta de los puntos
+                        limpios o contenedores de reciclaje.</p>
+                    <p>Menos del 20% de los hogares separan sus desechos, lo que incrementa la contaminación por
+                        vertederos ilegales y satura los rellenos sanitarios.</p>
+                    <div class="alert alert-info">
+                        <strong>Dato importante:</strong> El 65% de los residentes reciclarían si tuvieran herramientas
+                        sencillas para hacerlo.
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="map-container p-4">
+                        <h3 class="text-center mb-2">Puntos de reciclaje en San Ramón</h3>
+                        <img src="images/mapa.png" alt="Mapa de San Ramón" class="img-fluid">
+                        <p class="text-center mt-1">Nuestra plataforma muestra todos los puntos disponibles</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ODS Relacionado -->
+    <section class="container-xe py-5 text-white">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Objetivos de Desarrollo Sostenible</h2>
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <img src="images/S_SDG_inverted_WEB-11.png" alt="ODS 11" class="img-fluid mb-3">
+                    <h3>ODS 11</h3>
+                    <p>Ciudades y Comunidades Sostenibles</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="images/S_SDG-goals_icons-individual-rgb-12.png" alt="ODS 12" class="img-fluid mb-3">
+                    <h3>ODS 12</h3>
+                    <p>Producción y Consumo Responsables</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="images/S_SDG-goals_icons-individual-rgb-13.png" alt="ODS 13" class="img-fluid mb-3">
+                    <h3>ODS 13</h3>
+                    <p>Acción por el Clima</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Caracteristicas de la Web -->
+    <section id="features" class="py-5 section-princ">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Características de GreenLink</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="last-doe card h-100">
+                        <div class="card-body text-center">
+                            <div class="feature-icon">📍</div>
+                            <h3 class="card-title">Mapa Interactivo</h3>
+                            <p class="card-text">Visualización de contenedores, centros de reciclaje y puntos limpios
+                                según tu ubicación.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="last-doe card h-100">
+                        <div class="card-body text-center">
+                            <div class="feature-icon">🔍</div>
+                            <h3 class="card-title">Filtros Inteligentes</h3>
+                            <p class="card-text">Búsqueda por tipo de material (plástico, vidrio, electrónicos, etc.) y
+                                horarios.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="last-doe card h-100">
+                        <div class="card-body text-center">
+                            <div class="feature-icon">ℹ️</div>
+                            <h3 class="card-title">Información Detallada</h3>
+                            <p class="card-text">Instrucciones de reciclaje, datos de contacto y contribución ecológica
+                                de cada centro.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="last-doe card h-100">
+                        <div class="card-body text-center">
+                            <div class="feature-icon">👥</div>
+                            <h3 class="card-title">Comunidad Sostenible</h3>
+                            <p class="card-text">Los usuarios pueden añadir nuevos puntos y calificar los existentes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="last-doe card h-100">
+                        <div class="card-body text-center">
+                            <div class="feature-icon">📱</div>
+                            <h3 class="card-title">Accesible</h3>
+                            <p class="card-text">Plataforma web responsive que funciona en móviles y computadores.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="last-doe card h-100">
+                        <div class="card-body text-center">
+                            <div class="feature-icon">⚙️</div>
+                            <h3 class="card-title">Tecnología IoT</h3>
+                            <p class="card-text">Prototipo con sensores para monitorear el nivel de llenado de
+                                contenedores.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tecnologias utilizadas -->
+    <section class="py-5 section-princ">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Tecnologías Utilizadas</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3>Frontend</h3>
+                    <ul class="list-group mb-4">
+                        <li class="list-group-item">HTML5, CSS3, JavaScript</li>
+                        <li class="list-group-item">Bootstrap 5 (Diseño responsive)</li>
+                        <li class="list-group-item">Google Maps API o Leaflet.js</li>
+                    </ul>
+
+                    <h3>Backend</h3>
+                    <ul class="list-group mb-4">
+                        <li class="list-group-item">Firebase (Base de datos en tiempo real)</li>
+                        <li class="list-group-item">Autenticación de usuarios</li>
+                    </ul>
+
+                    <h3>IoT (Opcional)</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item">Arduino UNO o ESP32</li>
+                        <li class="list-group-item">Sensores ultrasónicos HC-SR04</li>
+                        <li class="list-group-item">Plataforma Blynk o Firebase para datos</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://via.placeholder.com/600x400" alt="Tecnologías" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Proyecto -->
+    <section id="team" class="py-5 section-princ">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Nuestro Equipo</h2>
+            <div class="row g-4">
+                <div class="col-md-4 col-6">
+                    <div class="last-doe card">
+                        <img src="https://via.placeholder.com/200" class="card-img-top" alt="Jheimy Tolentino">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Jheimy Tolentino</h5>
+                            <p class="card-text">Líder del Proyecto / Programador</p>
+                            <a href="mailto:jheimytolentino@liceovvh.cl"
+                                class="btn btn-outline-secondary btn-sm">Contactar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="last-doe card">
+                        <img src="https://via.placeholder.com/200" class="card-img-top" alt="Alison Salgado">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Alison Salgado</h5>
+                            <p class="card-text">Líder del Proyecto</p>
+                            <a href="mailto:alisonsalgado@liceovvh.cl"
+                                class="btn btn-outline-secondary btn-sm">Contactar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="last-doe card">
+                        <img src="https://via.placeholder.com/200" class="card-img-top" alt="Martin Rojas">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Martin Rojas</h5>
+                            <p class="card-text">Investigador</p>
+                            <a href="mailto:martinrojas@liceovvh.cl"
+                                class="btn btn-outline-secondary btn-sm">Contactar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="last-doe card">
+                        <img src="https://via.placeholder.com/200" class="card-img-top" alt="Jonathan Alquinta">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Jonathan Alquinta</h5>
+                            <p class="card-text">Diseñador</p>
+                            <a href="mailto:jonathanalquinta@liceovvh.cl"
+                                class="btn btn-outline-secondary btn-sm">Contactar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="last-doe card">
+                        <img src="https://via.placeholder.com/200" class="card-img-top" alt="Joaquín Perez">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Joaquín Perez</h5>
+                            <p class="card-text">Relator</p>
+                            <a href="mailto:joaquinperez@liceovvh.cl"
+                                class="btn btn-outline-secondary btn-sm">Contactar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="last-doe card">
+                        <img src="https://via.placeholder.com/200" class="card-img-top" alt="Benjamin Troncoso">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Benjamin Troncoso</h5>
+                            <p class="card-text">Editor</p>
+                            <a href="mailto:benjamintroncoso@liceovvh.cl"
+                                class="btn btn-outline-secondary btn-sm">Contactar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- web sitio -->
+    <section class="mt-2 section-box">
+        <div class="d-flex">
+            <div class="px-3 mb-5 mt-5">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <h2 class="fw-bold mb-4">Visita nuestra plataforma</h2>
+                            <p class="lead mb-4">GreenLink ya está disponible en línea con una versión funcional que
+                                puedes
+                                probar ahora mismo.</p>
+                            <a href="https://jheimytolentino.github.io/GreenLink/"
+                                class="btn btn-info btn-lg me-3 text-white">Ver
+                                plataforma</a>
+                            <a href="https://github.com/JheimyTolentino/GreenLink"
+                                class="btn btn-outline-secondary btn-lg">Ver
+                                código fuente</a>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="https://via.placeholder.com/600x400" alt="GreenLink Screenshot"
+                                class="img-fluid rounded shadow">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- section de contacto -->
+    <section class="container mb-5 mt-5" id="registro">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card shadow">
+                    <div class="card-body p-5">
+                        <h2 class="text-center mb-4">Contáctanos</h2>
+                        <form id="registrationForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="name" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="subject" class="form-label">Asunto</label>
+                                    <input type="text" class="form-control" id="subject" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="message" class="form-label">Mensaje</label>
+                                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn btn-light btn-lg">Enviar Mensaje</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>GreenLink</h5>
+                    <p>Una plataforma web colaborativa para mapear y promover puntos de reciclaje en San Ramón.</p>
+                    <p>Proyecto desarrollado para la feria TP de 3° Medio.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Enlaces</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Inicio</a></li>
+                        <li><a href="#about" class="text-white">Acerca de</a></li>
+                        <li><a href="#features" class="text-white">Características</a></li>
+                        <li><a href="#team" class="text-white">Equipo</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Contacto</h5>
+                    <ul class="list-unstyled">
+                        <li>Liceo VVH</li>
+                        <li>San Ramón, Chile</li>
+                        <li>greenlink.cl@gmail.cl</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 GreenLink. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- js Bootstrap -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+</body>
+
+</html>
